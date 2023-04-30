@@ -32,10 +32,16 @@ main{
         display: flex;
         flex-direction: column;
     }
+    .left{
+        flex: 100%;
+    }
   }
 
 .left{
-    width: 82%;
+    flex: 82%;
+}
+.right{
+    flex: 18%;
 }
 .left table tr td{
     padding: 0px 10px 10px 0px;
@@ -92,13 +98,23 @@ ul > li{
         height: 30px;
         font-size: 14px;
     }
+
+    .map{
+        flex: 100%;
+    }
+    .contact{
+        flex: 100%;
+        padding: 10px;
+        color: white;
+    }
   }
+  
 
 .map{
-    width: 60%;
+    flex: 60%;
 }
 .contact{
-    width: 40%;
+    flex: 40%;
     padding: 10px;
     color: white;
 }
