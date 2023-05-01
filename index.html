@@ -4,39 +4,194 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>My Personal Website</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/fuctionality.js"></script>
+    <style>
+        .nav{
+            background-color: rgba(6, 138, 172, 0.973);
+            padding: 10px;
+        }
+        .nav span a{
+            padding-right: 5px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        .nav span a:hover{
+            color: rgb(218, 232, 243);
+        }
+    </style>
 </head>
-<style>
-    body{
-        background-image: url(img/bg.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        background-size: cover;
-    }
-</style>
 <body>
-    <div class="containerC">
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1765.111015049205!2d39.257151528987364!3d-6.145198635968768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185cd71f888df0ab%3A0x2414919f927d29ce!2sMwera%2C%20Regezo%20Mwendo!5e1!3m2!1sen!2stz!4v1682878161853!5m2!1sen!2stz" width="100%" height="580" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="contact">
-           <h2>CONTACT US</h2>
-           <form id="formContact">
-            <label for="">Name</label><br>
-            <input type="text" id="name" required placeholder="Enter Name"><br><br>
-            <label for="">Email</label><br>
-            <input type="email" id="email" required placeholder="Enter Email"><br><br>
-            <label for="">Address</label><br>
-            <input type="text" id="address" required placeholder="Enter Address"><br><br>
-            <label for="">Comments</label><br>
-            <textarea id="comment" cols="30" width="100%" rows="5"></textarea><br><br>
-            <button type="submit" id="submit">SEND</button>
-           </form>
-           <h3><a href="login.html">Login</a></h3>
-        </div>
+    <div class="container">
+        <header>
+            <h1>MY CURRICULAM VITAE (CV)</h1>
+            <div class="nav">
+                <span><a href="contact_us.html">Contact Us</a></span>
+                <span><a href="login.html">Login</a></span>
+            </div>
+        </header>
+        <main>
+            <h3>PERSONAL INFORMATION</h3>
+            <div class="personal">
+                <div class="left">
+                    <table>
+                        <tr>
+                            <td>Full name: </td>
+                            <td>KHAMIS SAID MOHD</td>
+                        </tr>
+                        <tr>
+                            <td>Home address: </td>
+                            <td>ZANZIBAR</td>
+                        </tr>
+                        <tr>
+                            <td>Gender: </td>
+                            <td>MALE</td>
+                        </tr>
+                        <tr>
+                            <td>Date of Birth:</td>
+                            <td>10 March, 1995</td>
+                        </tr>
+                        <tr>
+                            <td>Marital status:</td>
+                            <td>SINGLE</td>
+                        </tr>
+                        <tr>
+                            <td>Mobile phone: </td>
+                            <td>0773274743/0625963170</td>
+                        </tr>
+                        <tr>
+                            <td>E-mail address:</td>
+                            <td><a href="mailto:khasamoh.12@gmail.com">khasamoh.12@gmail.com</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="right">
+                    <img src="img/passportSize.jpg" height="200px" width="150px" alt="">
+                </div>
+            </div>
+            <h3>EDUCATION BACKGROUND</h3>
+            <div class="education">
+                <table>
+                    <thead>
+                        <th>YEAR</th>
+                        <th>INSTITUTION</th>
+                        <th>AWARD</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="year">2021-2023</td>
+                            <td>THE STATE UNIVERSITY OF ZANZBAR (SUZA)</td>
+                            <td>BACHELOR OF INFORMATON TECHNOLOGY AND APLICATION MANAGEMENT(BITAM)</td>
+                        </tr>
+                        <tr>
+                            <td id="year">2019-2021</td>
+                            <td>THE STATE UNIVERSITY OF ZANZBAR (SUZA)</td>
+                            <td>DIPLOMA OF INFORMATON TECHNOLOGY(DIT)</td>
+                        </tr>
+                        <tr>
+                            <td id="year">2018-2019</td>
+                            <td>THE STATE UNIVERSITY OF ZANZBAR (SUZA)</td>
+                            <td>CERTIFICATE OF COMPUTER TECHNOLOGY(CCT)</td>
+                        </tr>
+                        <tr>
+                            <td id="year">2011-2014</td>
+                            <td>GANDO SECONDARY SCHOOL</td>
+                            <td>CERTIFICATE FOR SECONDARY SCHOOL</td>
+                        </tr>
+                        <tr>
+                            <td id="year">2004-2010 </td>
+                            <td>GANDO SECONDARY SCHOOL</td>
+                            <td>PRIMARY SCHOOL LEAVING EDUCATION</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            <h3>WORKING EXPERIENCE</h3>
+            <ul>
+                <li> 2022 : IT Officer(Field) at Zanziba Malaria Elimination Programme (ZAMEP)</li>
+                <li> 2021 : IT Technician at Zanziba Malaria Elimination Programme (ZAMEP)</li>
+                <li> 2020 : System Developer at ZIPA</li>
+                <li> 2019 : IT Technician(Field) at Zanzibar Planing Commision (ZPC)</li>
+            </ul>
+            <h3>SKILL</h3>
+            <ul>
+                <li>Website Development</li>
+                <li>System Development</li>
+                <li>Database Desing and Development</li>
+                <li>Network Administration</li>
+                <li>IT Consultant</li>
+                <li>IT with Accounting</li>
+                <li>Entrepreneur</li>
+            </ul>
+            <h3>PROFESSIONAL COURSE</h3>
+            <ul>
+                <li>Website Development</li>
+                <li>System Development</li>
+                <li>Database Desing and Development</li>
+                <li>Network Administration</li>
+                <li>IT Consultant</li>
+            </ul>
+            <h3>PROJECTS</h3>
+            <div class="project">
+                <table>
+                    <thead>
+                        <th>PROJECT NAME</th>
+                        <th>TECHNOLOGY</th>
+                        <th>ROLE</th>
+                        <th>CLIENT</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Intention Management System</td>
+                            <td>Web Based(PHP)</td>
+                            <td>Developer & Designer</td>
+                            <td>Zanzibar Investment Promotion Authority(ZIPA)</td>
+                        </tr>
+                        <tr>
+                            <td>School & Teacher Management System</td>
+                            <td>Web Based(PHP)</td>
+                            <td>Developer & Designer</td>
+                            <td>Ministry of Education Zanzibar</td>
+                        </tr>
+                        <tr>
+                            <td>Shop Management System</td>
+                            <td>Web Based(PHP)</td>
+                            <td>Developer & Designer</td>
+                            <td>Kidoti Company</td>
+                        </tr>
+                        <tr>
+                            <td>Sale Management System</td>
+                            <td>Web Based(Python-Django) AWS Server for Hosting</td>
+                            <td>Developer & Designer</td>
+                            <td>Any Shop</td>
+                        </tr>
+                        <tr>
+                            <td>Smart Irrigation System</td>
+                            <td>Arduwino & other IoT devices (Sensor/Actuator)</td>
+                            <td>Developer</td>
+                            <td>Farmers Company</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3>MANAGEMENT EXPERIENCE</h3>
+            <ul>
+                <li>Project Maneger</li>
+                <li>Group Leader</li>
+                <li>Mentor</li>
+            </ul>
+            <h3>DEPENDENTS</h3>
+            <ul>
+                <li>SAID MOHD</li>
+                <li>MOHD SAID</li>
+                <li>SULEIMAN ALI</li>
+                <li>MASSOUD SAID</li>
+                <li>SALUM SAID</li>
+                <li>SULTAN SAID</li>
+            </ul>
+        </main>
     </div>
 </body>
 </html>

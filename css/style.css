@@ -109,7 +109,9 @@ ul > li{
     }
   }
   
-
+  #link{
+    margin-left:20px;
+}
 .map{
     flex: 60%;
 }
