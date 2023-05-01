@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded',()=>{
          //Verify user to login
          if((name.value) ===(localStorage.getItem('name')) && (email.value) ===(localStorage.getItem('email'))){
              //Redirect to CV Page
-         window.location.href = 'cv.html';
+         window.location.href = 'index.html';
          }else{
              error.textContent = "Your login information not correct, Please try again";
              error.style.color = 'red';
